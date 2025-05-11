@@ -2,8 +2,8 @@
 
 use utf8;
 
-my $version = "2023-08-16";
-my $author = "Koichi Kamichi";
+my $version = "2025-05-11";
+my $author = "Hu Huangshuang";
 
 my $fontname;
 if($ARGV[0] eq "2"){
