@@ -38,7 +38,7 @@ for i in codepoints:
         #    url = "https://glyphwiki.org/glyph/unstable-" + i + ".svg"
         #else:
         #    url = "https://glyphwiki.org/glyph/" + i + ".svg"
-        url = "https://glyphwiki.org/glyph/" + i + ".svg"
+        url = "https://glyphwiki.org/glyph/hs_" + i + ".svg"
         count = 20
         while count > 0:
             data = requests.get(url).content
