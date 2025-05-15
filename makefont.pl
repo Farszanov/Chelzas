@@ -2,16 +2,16 @@
 
 use utf8;
 
-my $version = "2025-05-11";
+my $version = "2025-05-15";
 my $author = "Hu Huangshuang";
 
 my $fontname;
 if($ARGV[0] eq "2"){
-  $fontname = "Jigmo2";
+  $fontname = "gamma-LiupiSong_B";
 } elsif($ARGV[0] eq "3"){
-  $fontname = "Jigmo3";
+  $fontname = "gamma-LiupiSong_C";
 } else {
-  $fontname = "Jigmo";
+  $fontname = "gamma-LiupiSong_A";
 }
 
 $FONTFORGE = "fontforge";
