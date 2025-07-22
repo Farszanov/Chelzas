@@ -10,6 +10,8 @@ if($ARGV[0] eq "2"){
   $fontname = "gamma-LiupiSong_B";
 } elsif($ARGV[0] eq "3"){
   $fontname = "gamma-LiupiSong_C";
+} elsif($ARGV[0] eq "f"){
+  $fontname = "gamma-LiupiSong_D";
 } else {
   $fontname = "gamma-LiupiSong_A";
 }
@@ -65,6 +67,16 @@ while(<$fh>){
     if($_ =~ m/^(u3[0-9a-f]{4}-ue01[0-9a-f]{2})\n$/){
       $ivslist{$1} = $1;
     }
+  } elsif($ARGV[0] eq "f"){
+    if($_ =~ m/^(u00[0-9a-f]{2})\n$/){
+      $glyphlist{$1} = $1;
+    }
+    if($_ =~ m/^(uf[0-9a-f]{4})\n$/){
+      $glyphlist{$1} = $1;
+    }
+    if($_ =~ m/^(uf[0-9a-f]{4}-ue01[0-9a-f]{2})\n$/){
+      $ivslist{$1} = $1;
+    }
   } else {
     if($_ =~ m/^(u[0-9a-f]{4})\n$/){
       $glyphlist{$1} = $1;
@@ -82,6 +94,8 @@ close $fh;
 if($ARGV[0] eq "2"){
   $glyphlist{"u4e00"} = "u4e00";
 } elsif($ARGV[0] eq "3"){
+  $glyphlist{"u4e00"} = "u4e00";
+} elsif($ARGV[0] eq "f"){
   $glyphlist{"u4e00"} = "u4e00";
 } else {
   $glyphlist{"u20000"} = "u20000";
