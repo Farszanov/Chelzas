@@ -23,7 +23,7 @@ sudo pip3 install requests
 　ツール一式をGitHubから取得します。
 
 ```
-git clone https://github.com/kamichikoichi/jigmo
+git clone https://github.com/farshany/Jigmo_LiupiSong
 ```
 
 　実行します。
