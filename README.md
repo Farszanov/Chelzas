@@ -29,7 +29,7 @@ git clone https://github.com/farshany/Jigmo_LiupiSong
 Å@é¿çsÇµÇ‹Ç∑ÅB
 
 ```
-cd jigmo
+cd Jigmo_LiupiSong
 ./tasks
 ```
 
