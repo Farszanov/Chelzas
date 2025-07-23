@@ -77,9 +77,12 @@ perl makefont.pl 2
 echo "11:フォント生成 #3"
 perl makefont.pl 3
 
-echo "12:グリフリストの生成"
+echo "12:フォント生成 #4"
+perl makefont.pl f
+
+echo "13:グリフリストの生成"
 perl glyphlist.pl > $BUILD/glyphlist.html
 
-echo "13:ドキュメントと生成フォントの配置"
+echo "14:ドキュメントと生成フォントの配置"
 cp $DOC/* $BUILD/
 cp $DIR/font/*.ttf $BUILD/
