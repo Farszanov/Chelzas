@@ -1,10 +1,10 @@
-# jigmo
+# Chelzas / Хелзас
 
-Website: https://kamichikoichi.github.io/jigmo/
+Хелзасフォントは字雲フォントの改変フォントです。
 
 ## これは何？どう使うの？
 
-　Jigmoフォントを生成するツール一式です。
+　Хелзасフォントを生成するツール一式です。
 
 　WSL(Windows Subsystem for Linux) を含むLinux環境で動かすことを想定しています。以下のコマンドで各パッケージを用意してください。
 
@@ -23,13 +23,13 @@ sudo pip3 install requests
 　ツール一式をGitHubから取得します。
 
 ```
-git clone https://github.com/farszanov/Jigmo_LiupiSong
+git clone https://github.com/farszanov/Chelzas
 ```
 
 　実行します。
 
 ```
-cd Jigmo_LiupiSong
+cd Chelzas
 ./tasks
 ```
 
