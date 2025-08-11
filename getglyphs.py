@@ -34,11 +34,10 @@ for i in codepoints:
     d2 = c[:-2]
     print("\r", i, sep="", end="        ")
     if not base + "/" + d1 + "/" + d2 + "/" + i + ".svg" in svg:
-        #if 0x2ebf0 <= int(c[1:], 16) <= 0x2ee5d or 0x2ffc <= int(c[1:], 16) <= 0x2fff or c == "u31ef":
-        #    url = "https://glyphwiki.org/glyph/unstable-" + i + ".svg"
-        #else:
-        #    url = "https://glyphwiki.org/glyph/" + i + ".svg"
-        url = "https://glyphwiki.org/glyph/hs_" + i + ".svg"
+        if 0x1af90 <= int(c[1:], 16) <= 0x1afc2 or 0x1b123 <= int(c[1:], 16) <= 0x1b126 or 0x1b130 <= int(c[1:], 16) <= 0x1b131 or 0x1b133 <= int(c[1:], 16) <= 0x1b14f or 0x1b153 <= int(c[1:], 16) <= 0x1b154 or 0x1b156 <= int(c[1:], 16) <= 0x1b163 or c == "u1b168" or 0x2b73a <= int(c[1:], 16) <= 0x2b73f or 0x2cea2 <= int(c[1:], 16) <= 0x2cead or 0x323b0 <= int(c[1:], 16) <= 0x33479:
+            url = "https://glyphwiki.org/glyph/unstable-" + i + ".svg"
+        else:
+            url = "https://glyphwiki.org/glyph/" + i + ".svg"
         count = 20
         while count > 0:
             data = requests.get(url).content
