@@ -2,41 +2,41 @@
 
 Website: https://kamichikoichi.github.io/jigmo/
 
-## ����͉��H�ǂ��g���́H
+## これは何？どう使うの？
 
-�@Jigmo�t�H���g�𐶐�����c�[���ꎮ�ł��B
+　Jigmoフォントを生成するツール一式です。
 
-�@WSL(Windows Subsystem for Linux) ���܂�Linux���œ��������Ƃ�z�肵�Ă��܂��B�ȉ��̃R�}���h�Ŋe�p�b�P�[�W��p�ӂ��Ă��������B
+　WSL(Windows Subsystem for Linux) を含むLinux環境で動かすことを想定しています。以下のコマンドで各パッケージを用意してください。
 
 ```
 sudo apt install fontforge-nox fonttools wget git
 pip3 install requests
 ```
 
-�@macOS��brew�����g���̏ꍇ�͈ȉ��ɓǂݑւ��Ă��������B
+　macOSでbrewをお使いの場合は以下に読み替えてください。
 
 ```
 brew install fontforge fonttools wget git
 sudo pip3 install requests
 ```
 
-�@�c�[���ꎮ��GitHub����擾���܂��B
+　ツール一式をGitHubから取得します。
 
 ```
-git clone https://github.com/farshany/Jigmo_LiupiSong
+git clone https://github.com/farszanov/Jigmo_LiupiSong
 ```
 
-�@���s���܂��B
+　実行します。
 
 ```
 cd Jigmo_LiupiSong
 ./tasks
 ```
 
-�@build�t�H���_���Ƀt�H���g�t�@�C���A�O���t���X�g����������܂��B�O���t�E�B�L�����SVG�t�@�C���̎擾�����ttf�t�@�C���̐����ɍ��킹�Đ����Ԃ�����܂��BSVG�t�@�C����work/glyph�t�H���_���ɕۑ�����܂����A���łɃt�@�C�������݂���ꍇ�͎擾���܂���B�l�b�g���[�N�G���[�ȂǂŎ擾�Ɏ��s�����ꍇ�́A�r���Ŏ~�܂�܂��̂ŁA�P����tasks���Ď��s���Ă��������B
+　buildフォルダ内にフォントファイル、グリフリストが生成されます。グリフウィキからのSVGファイルの取得およびttfファイルの生成に合わせて数時間かかります。SVGファイルはwork/glyphフォルダ内に保存されますが、すでにファイルが存在する場合は取得しません。ネットワークエラーなどで取得に失敗した場合は、途中で止まりますので、単純にtasksを再実行してください。
 
-�@�񊿎���Unicode�Ŕz�z����Ă���UnicodeData.txt�̒�����keywords.txt�̊e�s���܂ނ��̂���荞�݂܂��B������SPACE, FILLER���܂ނ��͎̂�荞�݂܂���B
+　非漢字はUnicodeで配布されているUnicodeData.txtの中からkeywords.txtの各行を含むものを取り込みます。ただしSPACE, FILLERを含むものは取り込みません。
 
-�@����ł͂Ƃ肠�����t�H���g�𐶐����邽�߂̃c�M�n�M�X�N���v�g�ƂȂ��Ă��܂����A�����I�ɐ������邱�Ƃ��l���Ă��܂��B���C�Z���X��MIT���C�Z���X�ł��B
+　現状ではとりあえずフォントを生成するためのツギハギスクリプトとなっていますが、将来的に整備することを考えています。ライセンスはMITライセンスです。
 
-�@�ԉ��t�H���g�ƈقȂ�AJigmo�t�H���g�͌l�I�ȃv���W�F�N�g�ł��B����̒ǉ����̗v�]�͊�{�I�Ɏ󂯕t���܂���̂ŁA�����g�Ńc�[�����R�s�[���ĉ�������Ȃ�A�t�H�[�N����Ȃ肵�ăJ�X�^�}�C�Y���Ă��������B
+　花園フォントと異なり、Jigmoフォントは個人的なプロジェクトです。字種の追加等の要望は基本的に受け付けませんので、ご自身でツールをコピーして改造するなり、フォークするなりしてカスタマイズしてください。
