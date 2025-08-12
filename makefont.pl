@@ -10,6 +10,8 @@ if($ARGV[0] eq "2"){
   $fontname = "Chelzas_B";
 } elsif($ARGV[0] eq "3"){
   $fontname = "Chelzas_C";
+} elsif($ARGV[0] eq "a"){
+  $fontname = "Chelzas_E";
 } elsif($ARGV[0] eq "f"){
   $fontname = "Chelzas_D";
 } else {
@@ -67,6 +69,16 @@ while(<$fh>){
     if($_ =~ m/^(u3[0-9a-f]{4}-ue01[0-9a-f]{2})\n$/){
       $ivslist{$1} = $1;
     }
+  } elsif($ARGV[0] eq "a"){
+    if($_ =~ m/^(u00[0-9a-f]{2})\n$/){
+      $glyphlist{$1} = $1;
+    }
+    if($_ =~ m/^(ua[0-9a-f]{4})\n$/){
+      $glyphlist{$1} = $1;
+    }
+    if($_ =~ m/^(ua[0-9a-f]{4}-ue01[0-9a-f]{2})\n$/){
+      $ivslist{$1} = $1;
+    }
   } elsif($ARGV[0] eq "f"){
     if($_ =~ m/^(u00[0-9a-f]{2})\n$/){
       $glyphlist{$1} = $1;
@@ -94,6 +106,8 @@ close $fh;
 if($ARGV[0] eq "2"){
   $glyphlist{"u4e00"} = "u4e00";
 } elsif($ARGV[0] eq "3"){
+  $glyphlist{"u4e00"} = "u4e00";
+} elsif($ARGV[0] eq "a"){
   $glyphlist{"u4e00"} = "u4e00";
 } elsif($ARGV[0] eq "f"){
   $glyphlist{"u4e00"} = "u4e00";
