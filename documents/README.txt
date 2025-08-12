@@ -1,18 +1,18 @@
 About Jigmo fonts
 
-Jigmo fonts are free kanji fonts. The KAGE system[1], Clipper[2], FontForge[3]
+Chelzas fonts are free kanji fonts. The KAGE system[1], Clipper[2], FontForge[3]
 and TTX[4] are used to create thise fonts. All glyphs in these fonts are from
 GlyphWiki[5].
 
 
 List of included characters
 
-Jigmo fonts contains 141,457 characters (and spaces) defined
+Jigmo fonts contains 145,939 characters (and spaces) defined
 in the ISO/IEC 10646 standard / the Unicode standard.
 
-*** Non-kanji: 13,338 characters ***
+*** Non-kanji: 13,399 characters ***
 
-*** Kanji: 98.682 characters + 29,437 IVD characters ***
+*** Kanji: 103,103 characters + 29,437 IVD characters ***
 
 - U+4E00  .. U+9FFF  URO 20,992 chars (fully implemented)
 - U+3400  .. U+4DBF  Ext.A 6,592 chars (fully implemented)
@@ -23,41 +23,48 @@ in the ISO/IEC 10646 standard / the Unicode standard.
 - U+2CEB0 .. U+2EBE0 Ext.F 7,473 chars (fully implemented)
 - U+30000 .. U+3134A Ext.G 4,939 chars (fully implemented)
 - U+31350 .. U+323AF Ext.H 4,192 chars (fully implemented)
-- U+F900  .. U+FAD9  CJK Compatibility Ideographs 472 chars (fully
-                     implemented)
-- U+2F800 .. U+2FA1D CJK Compatibility Ideographs Supplement 542 chars
-                     (fully implemented)
+- U+2EBF0 .. U+2EE5D Ext.I candidate 622 chars (fully implemented)
+- U+F900  .. U+FAD9  CJK Compatibility Ideographs 472 chars (fully implemented)
+- U+2F800 .. U+2FA1D CJK Compatibility Ideographs Supplement 542 chars (fully implemented)
 - IVD※   .. 2022-09-13版 29,437 chars (fully implemented)
-- U+2EBF0 .. U+2EE5D Ext.I candidate 622 chars (test implementation)
+- U+2B73A .. U+2B73F Ext.C candidate 6 chars (test implementation)
+- U+2CEA2 .. U+2CEAD Ext.E candidate 12 chars (test implementation)
+- U+323B0 .. U+33479 Ext.J candidate 4,298 chars (test implementation)
+- U+A0000 .. U+A000A 10 chars (private implementation)
+- U+F0000 .. U+F005D 94 chars (private implementation)
 
 IVD: Ideographic Variation Database[6]
 
-Jigmo fonts are divided into three .ttf files as follows.
+Chelzas fonts are divided into three .ttf files as follows.
 
-*** Jigmo (Jigmo.ttf) : BMP, SMP ***
+*** Chelzas_A (Chelzas_A) : BMP, SMP ***
 
 - ASCII and non-kanji
 - CJK Unified Ideographs (URO, Ext.A) and these IVD
 - CJK Compatibility Ideographs
 
-*** Jigmo2 (Jigmo2.ttf) : SIP ***
+*** Chelzas_B (Chelzas_B.ttf) : SIP ***
 
 - (ASCII)
-- CJK Unified Ideographs (Ext.B, Ext.C, Ext.D, Ext.E, Ext.F) and these IVD
-- CJK Unified Ideographs (Ext.I candidate)
+- CJK Unified Ideographs (Ext.B, Ext.C, Ext.D, Ext.E, Ext.F, Ext.I) and these IVD
+- CJK Unified Ideographs (Ext.C, Ext.E candidate)
 - CJK Compatibility Ideographs Supplement
 
-*** Jigmo3 (Jigmo3.ttf) : TIP ***
+*** Chelzas_C (Chelzas_C.ttf) : TIP ***
 
 - (ASCII)
-- CJK Unified Ideographs (Ext.H, Ext.H) and IVD (U+31350 U+E0100)
+- CJK Unified Ideographs (Ext.G, Ext.H) and IVD (U+31350 U+E0100)
+- CJK Unified Ideographs (Ext.J candidate)
 
+*** Chelzas_D (Chelzas_D.ttf) : Plane15 ***
 
-Contact us
+- (ASCII)
+- CJK Unified Ideographs (Private)
 
-Original download location of Jigmo fonts: https://kamichikoichi.github.io/jigmo/
+*** Chelzas_E (Chelzas_E.ttf) : Plane10 ***
 
-Please send an e-mail to Koichi Kamichi <kamichi@ic.daito.ac.jp> to contact me.
+- (ASCII)
+- CJK Compatibility Ideographs (Private)
 
 
 Links
@@ -68,10 +75,11 @@ Links
 [4] https://fonttools.readthedocs.io/en/latest/
 [5] https://glyphwiki.org/
 [6] https://www.unicode.org/ivd/
+[7] https://github.com/kamichikoichi/jigmo
 
 ----------
 
-Jigmo（字雲）フォントについて
+Chelzas（Хелзас）フォントについて
 
 このフォントは自由かつ無償の漢字フリーフォントです。非漢字は一部のみ
 含まれます。明朝体フォント1ウェイトが収録されます。フォントの生成には
@@ -88,10 +96,10 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 含まれる文字種
 
 このフォントに含まれているグリフはISO/IEC 10646およびUnicode標準に収
-録されている141,457字となります。一部はUnicode 15.1の追加候補を試験的
+録されている145,939字となります。一部はUnicode 17.0の追加候補を試験的
 に収録しています。詳細は以下の通りです。
 
-*** 漢字 98,682字 + IVD 29,437字 ***
+*** 漢字 103,103字 + IVD 29,437字 ***
 
 - U+4E00  .. U+9FFF  URO 20,992字 完全収録
 - U+3400  .. U+4DBF  Ext.A 6,592字 完全収録
@@ -102,10 +110,15 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 - U+2CEB0 .. U+2EBE0 Ext.F 7,473字 完全収録
 - U+30000 .. U+3134A Ext.G 4,939字 完全収録
 - U+31350 .. U+323AF Ext.H 4,192字 完全収録
+- U+2EBF0 .. U+2EE5D Ext.I 622字 完全収録
 - U+F900  .. U+FAD9  互換文字 472字 完全収録
 - U+2F800 .. U+2FA1D 互換補助 542字 完全収録
 - IVD※   .. 2022-09-13版 29,437字 完全収録
-- U+2EBF0 .. U+2EE5D Ext.I候補 622字 試験収録 
+- U+2B73A .. U+2B73F Ext.C候補 6字 試験収録
+- U+2CEA2 .. U+2CEAD Ext.E候補 12字 試験収録
+- U+323B0 .. U+33479 Ext.J候補 4,298字 試験収録
+- U+A0000 .. U+A000A 11字 私用収録
+- U+F0000 .. U+F005D 94候補 622字 私用収録
 
 ※IVD : Ideographic Variation Database
 
@@ -115,32 +128,34 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 
 このフォントは、以下のように３分割となっています。
 
-*** フォント名：Jigmo（Jigmo.ttf）：第0面（BMP）、第1面（SMP）***
+*** フォント名：Chelzas_A（Chelzas_A.ttf）：第0面（BMP）、第1面（SMP）***
 
 - ASCIIほか非漢字
 - CJK統合漢字（URO, Ext.A）およびそのIVD
 - CJK互換漢字 
 
-*** フォント名：Jigmo2（Jigmo2.ttf）：第2面（SIP）***
+*** フォント名：Chelzas_B（Chelzas_B.ttf）：第2面（SIP）***
 
 - （ASCII）
-- CJK統合漢字（Ext.B, C, D, E, F）およびそのIVD
-- CJK統合漢字候補（Ext.I）
+- CJK統合漢字（Ext.B, C, D, E, F, I）およびそのIVD
+- CJK統合漢字候補（Ext.C, E）
 - CJK互換漢字補助 
 
-*** フォント名：Jigmo3（Jigmo3.ttf）：第3面（TIP）***
+*** フォント名：Chelzas_C（Chelzas_C.ttf）：第3面（TIP）***
 
 - （ASCII）
--  CJK統合漢字（Ext.G, H）およびIVD（U+31350 U+E0100の1字） 
+- CJK統合漢字（Ext.G, H）およびIVD（U+31350 U+E0100の1字） 
+- CJK統合漢字候補（Ext.J）
 
+*** フォント名：Chelzas_D（Chelzas_D.ttf）：第15面***
 
-連絡先など
+- （ASCII）
+- CJK統合漢字私用領域
 
-このフォントの1次配布場所は https://kamichikoichi.github.io/jigmo/ で
-す。
+*** フォント名：Chelzas_E（Chelzas_E.ttf）：第10面***
 
-このフォントに関するお問い合わせは 上地宏一 (kamichi@ic.daito.ac.jp)
-までお願いします。
+- （ASCII） 
+- CJK互換漢字私用領域
 
 
 グリフウィキ（GlyphWiki）について
@@ -161,7 +176,7 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 
 変更履歴
 
-2023-08-16 最初のバージョン
+2025-08-12 v1.0.0
 
 ※すべてのグリフに対するすべての変更履歴はグリフウィキで確認すること
 ができます。
@@ -175,4 +190,5 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 [4] https://fonttools.readthedocs.io/en/latest/
 [5] https://glyphwiki.org/
 [6] https://www.unicode.org/ivd/
+[7] https://github.com/kamichikoichi/jigmo
 
