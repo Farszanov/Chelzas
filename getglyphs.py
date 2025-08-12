@@ -36,8 +36,8 @@ for i in codepoints:
     if not base + "/" + d1 + "/" + d2 + "/" + i + ".svg" in svg:
         if 0x1af90 <= int(c[1:], 16) <= 0x1afc2 or 0x1b123 <= int(c[1:], 16) <= 0x1b126 or 0x1b130 <= int(c[1:], 16) <= 0x1b131 or 0x1b133 <= int(c[1:], 16) <= 0x1b14f or 0x1b153 <= int(c[1:], 16) <= 0x1b154 or 0x1b156 <= int(c[1:], 16) <= 0x1b163 or c == "u1b168" or 0x2b73a <= int(c[1:], 16) <= 0x2b73f or 0x2cea2 <= int(c[1:], 16) <= 0x2cead or 0x323b0 <= int(c[1:], 16) <= 0x33479:
             url = "https://glyphwiki.org/glyph/unstable-" + i + ".svg"
-        elif 0xf0000 <= int(c[1:], 16) <= 0xf001f:
-            url = "https://glyphwiki.org/glyph/huang-shuang144_qaz-" + i + ".svg"
+        elif 0xf0000 <= int(c[1:], 16) <= 0xffffd:
+            url = "https://glyphwiki.org/glyph/farszanov_qaz-" + i + ".svg"
         else:
             url = "https://glyphwiki.org/glyph/" + i + ".svg"
         count = 20
