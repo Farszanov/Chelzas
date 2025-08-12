@@ -39341,13 +39341,4 @@ FA29 E0100; Adobe-Japan1; CID+8687
 2EB79 E0100; Moji_Joho; MJ059255
 2EB79 E0101; Moji_Joho; MJ059256
 31350 E0100; Adobe-Japan1; CID+19130
-42AA F800;  qaz;    qaz
-2E1D7 F800;  qaz;    qaz
-F0007 F800;  qaz;    qaz
-F0033 F800;  qaz;    qaz
-F0037 F800;  qaz;    qaz
-F003D F800;  qaz;    qaz
-F0048 F800;  qaz;    qaz
-F004D F800;  qaz;    qaz
-F0057 F800;  qaz;    qaz
 # EOF
