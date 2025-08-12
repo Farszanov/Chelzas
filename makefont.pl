@@ -2,18 +2,18 @@
 
 use utf8;
 
-my $version = "2025-05-24";
+my $version = "2025-08-12";
 my $author = "Hu Huangshuang";
 
 my $fontname;
 if($ARGV[0] eq "2"){
-  $fontname = "gamma-LiupiSong_B";
+  $fontname = "Chelzas_B";
 } elsif($ARGV[0] eq "3"){
-  $fontname = "gamma-LiupiSong_C";
+  $fontname = "Chelzas_C";
 } elsif($ARGV[0] eq "f"){
-  $fontname = "gamma-LiupiSong_D";
+  $fontname = "Chelzas_D";
 } else {
-  $fontname = "gamma-LiupiSong_A";
+  $fontname = "Chelzas_A";
 }
 
 $FONTFORGE = "fontforge";
