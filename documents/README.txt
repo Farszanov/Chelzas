@@ -1,4 +1,4 @@
-About Jigmo fonts
+About Chelzas fonts
 
 Chelzas fonts are free kanji fonts. The KAGE system[1], Clipper[2], FontForge[3]
 and TTX[4] are used to create thise fonts. All glyphs in these fonts are from
