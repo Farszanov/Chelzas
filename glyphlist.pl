@@ -13,8 +13,8 @@ while(<FH>){
 }
 close FH;
 
-print "<!DOCTYPE html><html><head><meta charset='utf8'><style>body{font-family:Jigmo3,Jigmo2,Jigmo;}span:hover{color:red;background-color:yellow;}</style></head><body>";
-print "<h1>Jigmo fonts</h1>font version: 2023-08-16<br><br>";
+print "<!DOCTYPE html><html><head><meta charset='utf8'><style>body{font-family:Chelzas_A,Chelzas_B,Chelzas_C,Chelzas_D,Chelzas_E;}span:hover{color:red;background-color:yellow;}</style></head><body>";
+print "<h1>Jigmo fonts</h1>font version: 2025-08-18<br><br>";
 
 foreach(0x00 .. 0x3ff){
   $high = $_;
