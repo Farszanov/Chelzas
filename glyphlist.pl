@@ -14,7 +14,7 @@ while(<FH>){
 close FH;
 
 print "<!DOCTYPE html><html><head><meta charset='utf8'><style>body{font-family:Chelzas_A,Chelzas_B,Chelzas_C,Chelzas_D,Chelzas_E;}span:hover{color:red;background-color:yellow;}</style></head><body>";
-print "<h1>Chelzas fonts</h1>font version: 2025-08-18<br><br>";
+print "<h1>Chelzas fonts</h1>font version: 2025-08-21<br><br>";
 
 foreach(0x00 .. 0xfff){
   $high = $_;
