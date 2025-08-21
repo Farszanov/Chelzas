@@ -12,7 +12,7 @@ in the ISO/IEC 10646 standard / the Unicode standard.
 
 *** Non-kanji: 13,399 characters ***
 
-*** Kanji: 103,103 characters + 29,437 IVD characters ***
+*** Kanji: 103,121 characters + 29,437 IVD characters ***
 
 - U+4E00  .. U+9FFF  URO 20,992 chars (fully implemented)
 - U+3400  .. U+4DBF  Ext.A 6,592 chars (fully implemented)
@@ -23,15 +23,15 @@ in the ISO/IEC 10646 standard / the Unicode standard.
 - U+2CEB0 .. U+2EBE0 Ext.F 7,473 chars (fully implemented)
 - U+30000 .. U+3134A Ext.G 4,939 chars (fully implemented)
 - U+31350 .. U+323AF Ext.H 4,192 chars (fully implemented)
-- U+2EBF0 .. U+2EE5D Ext.I candidate 622 chars (fully implemented)
+- U+2EBF0 .. U+2EE5D Ext.I 622 chars (fully implemented)
 - U+F900  .. U+FAD9  CJK Compatibility Ideographs 472 chars (fully implemented)
 - U+2F800 .. U+2FA1D CJK Compatibility Ideographs Supplement 542 chars (fully implemented)
 - IVD※   .. 2022-09-13版 29,437 chars (fully implemented)
 - U+2B73A .. U+2B73F Ext.C candidate 6 chars (test implementation)
 - U+2CEA2 .. U+2CEAD Ext.E candidate 12 chars (test implementation)
 - U+323B0 .. U+33479 Ext.J candidate 4,298 chars (test implementation)
-- U+A0000 .. U+A000A 10 chars (private implementation)
-- U+F0000 .. U+F005D 94 chars (private implementation)
+- U+A0000 .. U+A0010 Qaz Compatibility Ideographs 17 chars (private implementation)
+- U+F0000 .. U+F005D Qaz Unified Ideographs 106 chars (private implementation)
 
 IVD: Ideographic Variation Database[6]
 
@@ -99,7 +99,7 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 録されている145,939字となります。一部はUnicode 17.0の追加候補を試験的
 に収録しています。詳細は以下の通りです。
 
-*** 漢字 103,103字 + IVD 29,437字 ***
+*** 漢字 103,121字 + IVD 29,437字 ***
 
 - U+4E00  .. U+9FFF  URO 20,992字 完全収録
 - U+3400  .. U+4DBF  Ext.A 6,592字 完全収録
@@ -117,8 +117,8 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 - U+2B73A .. U+2B73F Ext.C候補 6字 試験収録
 - U+2CEA2 .. U+2CEAD Ext.E候補 12字 試験収録
 - U+323B0 .. U+33479 Ext.J候補 4,298字 試験収録
-- U+A0000 .. U+A000A 11字 私用収録
-- U+F0000 .. U+F005D 94候補 622字 私用収録
+- U+A0000 .. U+A0010 Qaz互換漢字 17字 私用収録
+- U+F0000 .. U+F0069 Qaz統合漢字 106字 私用収録
 
 ※IVD : Ideographic Variation Database
 
