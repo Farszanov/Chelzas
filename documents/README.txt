@@ -7,10 +7,10 @@ GlyphWiki[5].
 
 List of included characters
 
-Jigmo fonts contains 145,939 characters (and spaces) defined
+Jigmo fonts contains 146,053 characters (and spaces) defined
 in the ISO/IEC 10646 standard / the Unicode standard.
 
-*** Non-kanji: 13,399 characters ***
+*** Non-kanji: 13,495 characters ***
 
 *** Kanji: 103,121 characters + 29,437 IVD characters ***
 
@@ -42,6 +42,7 @@ Chelzas fonts are divided into three .ttf files as follows.
 - ASCII and non-kanji
 - CJK Unified Ideographs (URO, Ext.A) and these IVD
 - CJK Compatibility Ideographs
+- CJK Excluding Ideographs (Private)
 
 *** Chelzas_B (Chelzas_B.ttf) : SIP ***
 
@@ -96,7 +97,7 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 含まれる文字種
 
 このフォントに含まれているグリフはISO/IEC 10646およびUnicode標準に収
-録されている145,939字となります。一部はUnicode 17.0の追加候補を試験的
+録されている146,053字となります。一部はUnicode 17.0の追加候補を試験的
 に収録しています。詳細は以下の通りです。
 
 *** 漢字 103,121字 + IVD 29,437字 ***
@@ -122,7 +123,7 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 
 ※IVD : Ideographic Variation Database
 
-*** 非漢字 13,338字 ***
+*** 非漢字 13,495字 ***
 
 - ASCIIおよびCJKに関係するもの（一部はUnicode 15.1の追加候補を試験収録）
 
@@ -140,6 +141,7 @@ KAGEシステム、Clipper, FontForgeおよびTTXを利用しています。
 - CJK統合漢字（Ext.B, C, D, E, F, I）およびそのIVD
 - CJK統合漢字候補（Ext.C, E）
 - CJK互換漢字補助 
+- CJK非漢字私用領域
 
 *** フォント名：Chelzas_C（Chelzas_C.ttf）：第3面（TIP）***
 

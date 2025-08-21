@@ -40576,7 +40576,7 @@ E01EE;VARIATION SELECTOR-255;Mn;0;NSM;;;;;N;;;;;
 E01EF;VARIATION SELECTOR-256;Mn;0;NSM;;;;;N;;;;;
 F0000;<CJK QAZ HAN, First>;Lo;0;L;;;;;N;;;;;
 F0069;<CJK QAZ HAN, Last>;Lo;0;L;;;;;N;;;;;
-F005E;<Plane 15 Private Use, First>;Co;0;L;;;;;N;;;;;
+F006A;<Plane 15 Private Use, First>;Co;0;L;;;;;N;;;;;
 FFFFD;<Plane 15 Private Use, Last>;Co;0;L;;;;;N;;;;;
 100000;<Plane 16 Private Use, First>;Co;0;L;;;;;N;;;;;
 10FFFD;<Plane 16 Private Use, Last>;Co;0;L;;;;;N;;;;;
